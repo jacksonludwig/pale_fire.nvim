@@ -12,13 +12,15 @@ local theme = lush(function(injected_functions)
 		WinSeparator({ LineNr }),
 		Comment({ fg = "#568E58" }),
 
+		MsgSeparator({ bg = "#568E58" }),
+
     PreProc({ fg = "#74B5E8" }),
 
     DiffAdd({ fg = "#85BF86" }),
     DiffDelete({ fg = "#E69495" }),
     DiffChange({ fg = "#DF9D6F" }),
     diffAdded({ DiffAdd }),
-    diffDeleted({ DiffDelete }),
+    diffRemoved({ DiffDelete }),
     diffChanged({ DiffChange }),
 
 		Visual({ bg = "#323232" }),
