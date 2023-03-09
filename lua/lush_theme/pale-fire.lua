@@ -12,6 +12,8 @@ local theme = lush(function(injected_functions)
 		WinSeparator({ LineNr }),
 		Comment({ fg = "#568E58" }),
 
+		Conceal({ Normal, bg = "#568E58" }),
+
 		MsgSeparator({ bg = "#568E58" }),
 
 		PreProc({ fg = "#74B5E8" }),
