@@ -14,14 +14,15 @@ local theme = lush(function(injected_functions)
 
 		MsgSeparator({ bg = "#568E58" }),
 
-    PreProc({ fg = "#74B5E8" }),
+		PreProc({ fg = "#74B5E8" }),
+		Search({ bg = "#74B5E8", fg = "#161616" }),
 
-    DiffAdd({ fg = "#85BF86" }),
-    DiffDelete({ fg = "#E69495" }),
-    DiffChange({ fg = "#DF9D6F" }),
-    diffAdded({ DiffAdd }),
-    diffRemoved({ DiffDelete }),
-    diffChanged({ DiffChange }),
+		DiffAdd({ fg = "#85BF86" }),
+		DiffDelete({ fg = "#E69495" }),
+		DiffChange({ fg = "#DF9D6F" }),
+		diffAdded({ DiffAdd }),
+		diffRemoved({ DiffDelete }),
+		diffChanged({ DiffChange }),
 
 		Visual({ bg = "#323232" }),
 
