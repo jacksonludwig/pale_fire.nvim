@@ -12,6 +12,9 @@ local theme = lush(function(injected_functions)
 		WinSeparator({ LineNr }),
 		Comment({ fg = "#568E58" }),
 
+		TabLine({ LineNr, gui = "bold" }),
+		TabLineFill({ TabLine }),
+
 		Conceal({ Normal, bg = "#568E58" }),
 
 		MsgSeparator({ bg = "#568E58" }),
@@ -30,6 +33,7 @@ local theme = lush(function(injected_functions)
 
 		Special({ fg = "#C8B0F6" }),
 		NonText({ Special }),
+		Title({ Special }),
 
 		Delimiter({ fg = "#EFEFE7" }),
 		Identifier({ Delimiter }),
