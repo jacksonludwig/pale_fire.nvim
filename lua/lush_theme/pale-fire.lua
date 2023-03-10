@@ -80,6 +80,7 @@ local theme = lush(function(injected_functions)
 		CmpItemMenu({ NormalFloat }),
 		CmpItemDefault({ NormalFloat }),
 		CmpItemAbbr({ NormalFloat }),
+		CmpItemAbbrDeprecated({ NormalFloat, fg = "#70706d" }),
 		PmenuSel({ bg = "#222222", fg = "#EFEFE7" }),
 		PmenuSbar({ PmenuSel }),
 		PmenuThumb({ PmenuSel, bg = "#444444" }),
